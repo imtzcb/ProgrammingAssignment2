@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## This function is object constructor
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -20,7 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function returns 
+## This function returns the inverted version of the 
+## matrix passed to the function
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
